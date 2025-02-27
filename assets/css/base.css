@@ -1,23 +1,24 @@
 :root{
+  --primary-color:#ee4d2d;
   --white-color: #fff;
   --black-color: #000;
   --text-volor: #333;
-
+  
 }
 *{
   box-sizing: inherit;
 }
 html{
   line-height: 1.6rem;
-  font-family: "Roboto Slab", serif;
+  font-family: "Roboto", serif;
   box-sizing: border-box;
 }
 
 .grid
 {
-  width: 1200px;
-  max-width: 100%;
-  margin: 0 auto;
+  width: 1200px; /*màn hình lớn hơn thì lấy ww=1200px */
+  max-width: 100%; /*màn hình nhỏ hơn thì lấy 100% màn hình */
+  margin: 0 auto; /*canh giữa*/
 }
 .grid__ful-width{
   width: 100%;

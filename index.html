@@ -14,40 +14,139 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
     integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="./assets/font/fontawesome-free-6.7.2-web/css/all.min.css">
   <link rel="stylesheet" href="./assets/css/base.css">
   <link rel="stylesheet" href="./assets/css/main.css">
-  <title>Shopee</title>
+  <title>Gotin Shopping</title>
 </head>
 
 <body>
   <div class="app">
     <header class="header">
-      <nav class="header__navbar">
-        <ul class="header__navbar-list">
-          <li class="header__navbar-item">
-            Vào cửa hàng trên ứng dụng Gotin
-          </li>
-          <li class="header__navbar-item">
-            Kết nối
-          </li>
-        </ul>
+      <div class="grid">
+        <nav class="header__navbar">
+          <ul class="header__navbar-list">
 
-        <ul class="header__navbar-list">
+            <li class="header__navbar-item header__navbar-item-separate header__navbar-item--has-qr">
+              Vào cửa hàng trên ứng dụng Gotin
+              <!-- Header QR code-->
+              <div class="header__qr">
+                <img src="./assets/image/QR.png" alt="qr code" class="header__qr-img">
 
-          <li class="header__navbar-item">
-            <a href="" class="header__navbar-item-link"></a>Thông báo
-          </li>
+                <div class="header__qr-apps">
+                  <a href="" class="header__qr-link">
+                    <img class="header__qr-download-img" src="./assets/image/gg_play.png" alt="Google Play">
+                  </a>
 
-          <li class="header__navbar-item">
-            <a href="" class="header__navbar-item-link"></a>Trợ giúp
-          </li>
+                  <a href="" class="header__qr-link">
+                    <img class="header__qr-download-img" src="./assets/image/app_store.png" alt="App Store">
+                  </a>
+                </div>
+              </div>
 
-          <li class="header__navbar-item">Đăng ký </li>
+            </li>
 
-          <li class="header__navbar-item">Đăng nhập </li>
+            <li class="header__navbar-item">
+              <span class="header__navbar-title--no-pointer">Kết nối</span>
+              <a href="" class="header__navbar-icon-link"><i class="header__navbar-icon fa-brands fa-facebook"></i></a>
+              <a href="" class="header__navbar-icon-link"><i class="header__navbar-icon fa-brands fa-instagram"></i></a>
+            </li>
 
-        </ul>
-      </nav>
+          </ul>
+
+          <ul class="header__navbar-list">
+
+            <li class="header__navbar-item">
+              <a href="" class="header__navbar-item-link">
+                <a href="" class="header__navbar-icon-link"><i class="header__navbar-icon fa-solid fa-bell"></i></a>
+                Thông báo
+              </a>
+
+              <div class="header__notify">
+
+                <header class="header__notify-header">
+                  <h3>Thông báo mới nhận </h3>
+                </header>
+
+                <ul class="header__notify-list">
+                  <li class="header__notify-item ">
+                    <a href="https://shopee.vn/%E1%BB%90ng-h%C3%BAt-tre-STAY-ECO-an-to%C3%A0n-s%E1%BB%A9c-kh%E1%BB%8Fe-chi%E1%BB%81u-d%C3%A0i-20cm-d%C3%B9ng-nhi%E1%BB%81u-l%E1%BA%A7n-th%C3%A2n-thi%E1%BB%87n-v%E1%BB%9Bi-m%C3%B4i-tr%C6%B0%E1%BB%9Dng-i.952848074.16395149099?sp_atk=e189850a-3b18-4528-846e-042f908e88e5&xptdk=e189850a-3b18-4528-846e-042f908e88e5" target="_blank" class="header__notify-link">
+                      <img src="./assets/image/ong_hut_tre.webp" alt="" class="header__notify-img">
+
+                      <div class="header__notify-info">
+
+                        <span class="header__notify-name">
+                          Ống hút tre STAY ECO an toàn sức khỏe chiều dài 20cm, dùng nhiều lần, thân thiện với môi
+                          trường
+                        </span>
+
+                        <span class="header__notify-description">
+                          Hàng Việt Nam xuất khẩu
+                        </span>
+
+                      </div>
+
+                    </a>
+                  </li>
+                  <li class="header__notify-item">
+                    <a href="https://shopee.vn/M%C3%A0nh-tre-cu%E1%BB%91n-kimbap-STAY-ECO-cu%E1%BB%99n-shushi-c%C6%A1m-rong-bi%E1%BB%83n-an-to%C3%A0n-v%E1%BB%87-sinh-th%E1%BB%B1c-ph%E1%BA%A9m-ti%E1%BB%87n-l%E1%BB%A3i-ph%E1%BB%A5-ki%E1%BB%87n-b%C3%A0n-%C4%83n-i.952848074.21082035481?sp_atk=23b3738e-fd85-4304-9f8f-9309cd903e77&xptdk=23b3738e-fd85-4304-9f8f-9309cd903e77" target="_blank" class="header__notify-link header__notify-item--viewed">
+                      <img src="./assets/image/manh_tre.webp" alt="" class="header__notify-img">
+
+                      <div class="header__notify-info">
+
+                        <span class="header__notify-name">
+                          Mành tre cuốn kimbap STAY ECO cuộn shushi, cơm rong biển, an toàn vệ sinh thực phẩm, tiện lợi phụ kiện bàn ăn
+                        </span>
+
+                        <span class="header__notify-description">
+                          Hàng Việt Nam xuất khẩu
+                        </span>
+
+                      </div>
+
+                    </a>
+                  </li>
+
+                  <li class="header__notify-item">
+                    <a href="https://shopee.vn/Mu%E1%BB%97ng-x%E1%BB%9Bi-c%C6%A1m-b%E1%BA%B1ng-g%E1%BB%97-STAY-ECO-mu%C3%B4i-x%C3%A0o-n%E1%BA%A5u-mu%E1%BB%97ng-m%C3%BAc-canh-ch%E1%BB%91ng-d%C3%ADnh-ch%E1%BB%8Bu-nhi%E1%BB%87t-ti%E1%BB%87n-l%E1%BB%A3i-nhi%E1%BB%81u-k%C3%ADch-th%C6%B0%E1%BB%9Bc-i.952848074.16897580618?sp_atk=fecc2113-54bf-46a1-8370-3ccd51a656c5&xptdk=fecc2113-54bf-46a1-8370-3ccd51a656c5" target="_blank" class="header__notify-link header__notify-item--viewed">
+                      <img src="./assets/image/muong_go.webp" alt="" class="header__notify-img">
+
+                      <div class="header__notify-info">
+
+                        <span class="header__notify-name">
+                          Muỗng xới cơm bằng gỗ STAY ECO muôi xào nấu, muỗng múc canh chống dính chịu nhiệt tiện lợi nhiều kích thước
+                        </span>
+
+                        <span class="header__notify-description">
+                          Hàng Việt Nam xuất khẩu
+                        </span>
+
+                      </div>
+
+                    </a>
+                  </li>
+                </ul>
+
+                <footer class="header__notify-footer">
+                  <a href="" class="header__notify-footer-btn">Xem tất cả </a>
+                </footer>
+
+              </div>
+            </li>
+
+            <li class="header__navbar-item">
+              <a href="" class="header__navbar-item-link">
+                <a href="" class="header__navbar-icon-link"><i
+                    class="header__navbar-icon fa-regular fa-question-circle"></i></a> Trợ giúp</a>
+            </li>
+
+            <li class="header__navbar-item header__navbar-item-strong header__navbar-item-separate">Đăng ký </li>
+
+            <li class="header__navbar-item header__navbar-item-strong">Đăng nhập </li>
+
+          </ul>
+        </nav>
+      </div>
     </header>
 
     <div class="container">
